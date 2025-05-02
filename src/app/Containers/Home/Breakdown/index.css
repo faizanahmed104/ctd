@@ -1,0 +1,20 @@
+.apexcharts-pie-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.apexcharts-datalabels-group{
+    text-align: center;
+    line-height: 1.2; /* Adjust if spacing between lines is off */
+}
+
+#breakDown-total .apexcharts-datalabel-label .apexcharts-datalabels-group {
+    /* Add your styles here */
+    font-size: 18px;
+    color: red;
+    white-space: normal;
+    word-break: break-word;
+}

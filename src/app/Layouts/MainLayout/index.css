@@ -1,0 +1,32 @@
+/* index.css */
+.sidebar {
+  height: 100vh; /* Full height of the screen */
+  overflow-y: scroll; /* Allows vertical scroll */
+}
+
+/* Hide scrollbar in Chrome, Safari, and Edge */
+.sidebar::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Optional: To hide background */
+}
+
+/* Hide scrollbar in Firefox */
+.sidebar {
+  scrollbar-width: none;
+}
+
+.datetime-pulse {
+  animation: pulse-subtle 2s infinite;
+}
+
+@keyframes pulse-subtle {
+  0% {
+    box-shadow: 0 0 0 0 rgba(45, 212, 191, 0.1);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(45, 212, 191, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(45, 212, 191, 0);
+  }
+}
